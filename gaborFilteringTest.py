@@ -3,7 +3,8 @@ import cv2
 from matplotlib import pyplot as plt
 import snrTool as snr
 
-#! alsdkjfslkdfj adfasdfasdf
+#! alsdkjfsl asdfdfdf dfdf 
+#? Commit i think?  making more comments weee
 
 def build_filters(kernel_size, sigma):
     filters = []
