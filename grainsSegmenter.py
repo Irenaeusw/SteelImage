@@ -56,7 +56,7 @@ diameters = []
 for contour in contours:
 
     curr_area = cv2.contourArea(contour)
-    if curr_area > 100 and curr_area < 900000:
+    if curr_area > 20 and curr_area < 900000:
         pearlites.append(contour)
         areas.append(curr_area)
 
