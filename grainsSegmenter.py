@@ -10,7 +10,7 @@ saveDir = snr.loadFolderDir("save directory")
 
 saveFolder = snr.createFolder(saveDir, "Processing Steps Results")
 
-txt = open("{}\\pearlites_data.txt".format(saveFolder), 'w')
+txt = open("{}\\pearlites_bulk_data.txt".format(saveFolder), 'w')
 
 #load image into colour
 img = cv2.imread(imgDir, 1)
